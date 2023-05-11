@@ -97,3 +97,18 @@ body {
 .telas__descricao__texto{
     width: 90%;
 }
+
+.container__dispositivo__texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__dispositivos{
+    display: flex;
+    margin-top: 1em;
+        
+}
+
+.dispositivos__itens {
+    text-align: center;
+}
