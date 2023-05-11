@@ -91,24 +91,25 @@ body {
 
 .terciario__botao {
     margin-top: 1em;
-    width: 27%;
+    display: inline-block;
 }
 
 .telas__descricao__texto{
     width: 90%;
 }
 
-.container__dispositivo__texto {
-    display: flex;
-    flex-direction: column;
+.container__dispositivo {
+    text-align: center;
 }
 
-.container__dispositivos{
+.lista__dispositivos{
     display: flex;
-    margin-top: 1em;
+    justify-content: center;
+    margin: 5em 0;
+    list-style-type: none;
         
 }
 
-.dispositivos__itens {
-    text-align: center;
+.lista__item {
+    font-size: 32px;
 }
