@@ -113,3 +113,31 @@ body {
 .lista__item {
     font-size: 32px;
 }
+
+.rodape {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2em 0;
+}
+
+.lista__link a{
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 0.5em;
+    color: var(--branco-principal);
+}
+
+.rodape__texto {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-principal);
+    margin-bottom: 2em;
+
+}
