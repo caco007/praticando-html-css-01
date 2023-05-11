@@ -89,11 +89,6 @@ body {
     color: var(--cinza-secundario);
 }
 
-.container__terciario{
-    display: flex;
-    justify-content: center;
-}
-
 .terciario__botao {
     margin-top: 1em;
     width: 27%;
