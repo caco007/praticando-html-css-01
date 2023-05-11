@@ -1,6 +1,7 @@
 :root {
     --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
+    --cinza-principal: #C0C0C0;
+    --cinza-secundario: #f9f9f9;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'inter';
@@ -63,7 +64,7 @@ body {
 
 .container__aviso{
     font-size: 12px;
-    color: var(--cinza-secundario);
+    color: var(--cinza-principal);
 }
 
 .secundario__imagem {
@@ -86,4 +87,18 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: var(--cinza-secundario);
+}
+
+.container__terciario{
+    display: flex;
+    justify-content: center;
+}
+
+.terciario__botao {
+    margin-top: 1em;
+    width: 27%;
+}
+
+.telas__descricao__texto{
+    width: 90%;
 }
